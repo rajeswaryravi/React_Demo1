@@ -1,0 +1,16 @@
+.menuitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    width: 235px;
+    height: 40px;
+    background-color: grey;
+    list-style-type: none;
+    padding-top: 20px;
+}
+li:last-child{
+    margin-right: 25px;
+}
